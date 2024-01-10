@@ -95,40 +95,11 @@ public class TC_POS_003 extends TC_LoginTest_001 {
 		
 //		WebElement slot1 = driver.findElement(By.xpath(""))
 		
-		// WebElement slot2=driver.findElement(By.xpath("//div[@id='e3f4732b']//label[@class='switch-pos']//a[@class='btn btn-secondary']"));
-//		slot2.click();
 		
-		//Adding a condition to check availability
-		
-//		WebElement slot1=null;
-//		//Womens Wednesday --- ended on wednesday
-//		
-//		if(slot1==driver.findElement(By.xpath("//div[@id='e3f4732b']//label[contains(@class,'switch-pos disabled')]//a[@class='btn btn-secondary']"))){
-//			slot1.isEnabled();
-//			System.out.println("Slot 1 is Not Available");
-//			slot1.click();
-//			
-//		}
-//		else {
-//			WebElement slot2 = driver.findElement(By.xpath("\"//div[@id='e3f4732b']//label[@class='switch-pos']//a[@class='btn btn-secondary']\""));
-//			slot2.click();
-//			System.out.println("Slot 2 is available to book and moving forward");
-//			
-//		}
 		WebElement slot1 = driver.findElement(By.xpath("//*[@id=\"a1cc79ff\"]/form/div[2]/div/div[1]/label/a"));
 		slot1.click();
 		Thread.sleep(2000);
-//		WebElement listInst = null;
-//		WebElement listInt2 = null;
-//		if(listInst==driver.findElement(By.xpath("//*[@id=\"list-26a6dbcf\"]/a[1]"))) {
-//			listInst.click();
-//		}else if(listInt2==driver.findElement(By.xpath("//*[@id=\"list-26a6dbcf\"]/a[2]"))){
-//			listInt2.click();
-//			Thread.sleep(1000);
-//		}else {
-//			// click on add to cart button
-//			driver.findElement(By.xpath("(//a[@class='btn btn-primary add-to-cart'][normalize-space()='Add to Cart'])[15]")).click();
-//		}
+//		
 		
 		Thread.sleep(2000);
 		// click on add to cart button
